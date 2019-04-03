@@ -1,0 +1,168 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+/* line 108, ../sass/_base.scss */
+html {
+  color: #333;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/* line 114, ../sass/_base.scss */
+::-moz-selection, ::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* line 119, ../sass/_base.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 128, ../sass/_base.scss */
+audio, canvas, iframe, img, svg, video {
+  vertical-align: middle;
+}
+
+/* line 132, ../sass/_base.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 138, ../sass/_base.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 142, ../sass/_base.scss */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* line 157, ../sass/_base.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 160, ../sass/_base.scss */
+body {
+  color: #777777;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+/* line 168, ../sass/_base.scss */
+body.pkna {
+  font-feature-settings: 'pkna' 1;
+  letter-spacing: normal !important;
+}
+
+/* line 173, ../sass/_base.scss */
+h1, h2, h3, h4, h5, h6, p, dl {
+  margin: 0;
+}
+
+/* line 177, ../sass/_base.scss */
+dd {
+  margin-left: 0;
+}
+
+/* line 181, ../sass/_base.scss */
+a {
+  color: #3c3c3c;
+  text-decoration: none;
+}
+
+/* line 186, ../sass/_base.scss */
+a:focus {
+  border: 0;
+  outline: 0;
+}
+
+/* line 191, ../sass/_base.scss */
+ul, ol {
+  margin: 0;
+  padding-left: 0;
+}
+/* line 195, ../sass/_base.scss */
+ul li, ol li {
+  list-style: none;
+}
+
+/* line 200, ../sass/_base.scss */
+img {
+  max-width: 100%;
+  height: auto;
+  *zoom: 1;
+}
+
+/* line 206, ../sass/_base.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/* line 222, ../sass/_base.scss */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+/* line 227, ../sass/_base.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+/* line 237, ../sass/_base.scss */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 248, ../sass/_base.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 252, ../sass/_base.scss */
+.clearfix {
+  *zoom: 1;
+}
+/* line 253, ../sass/_base.scss */
+.clearfix:before {
+  content: " ";
+  display: table;
+}
+/* line 257, ../sass/_base.scss */
+.clearfix:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
