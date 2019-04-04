@@ -59,7 +59,7 @@
 	display: none;
 }
 .block-menu .form-search .form-control .btn-search {
-	background: #fff;
+	background: transparent;
 	border: none;
 }
 .block-menu .form-search .form-control .btn-search:focus {
@@ -329,4 +329,10 @@
 	.footer .copyright {
 		font-size: 0.9rem;
 	}
+}
+.fixed {
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	background-color: #e8e8e8;
 }
