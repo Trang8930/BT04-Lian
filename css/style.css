@@ -177,13 +177,16 @@
 	color: #777;
 }
 .container .list-photo {
-	column-count: 3;
+	/* column-count: 3;
     column-gap: calc(30 / 1140 * 100%);
-    column-width: 30%;
+    column-width: 30%; */
     margin-top: 30px;
 }
 .container .list-photo li {
 	margin-bottom: 35px;
+}
+.container .grid .grid-item {
+	width: calc(360 / 1140 * 100%);
 }
 .container .list-photo li a {
     display: block;
@@ -382,5 +385,11 @@
 	width: 100%;
 	z-index: 1000;
 	background-color: #e8e8e8;
+	opacity: 0.9;
+}
+.hide {
+	transform: scale(0);
+	width: 0;
+	transition: all 0.3s ease-in-out;
 }
 
